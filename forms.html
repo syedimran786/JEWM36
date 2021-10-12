@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS and INPUT TYPES</title>
+</head>
+<body>
+    <form action="">
+      
+        <!-- <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password"> <br><br>
+        <input type="tel" placeholder="Mobile" maxlength="10" minlength="8">
+        <input type="email" placeholder="Enter Valid Email">
+        <input type="url" placeholder="Enter Your Website Url">
+         <br><br>
+         <input type="number" placeholder="Age" min="1" max="60">
+         <input type="file" accept="application/pdf">
+         <br><br>
+
+         <input type="date">
+         <input type="time">
+         <br><br>
+        <input  type="submit"value="Login"> -->
+        <!-- <button type="submit">Signup</button> -->
+
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" id="g1"><label for="g1">Male</label>
+        <input type="radio" name="gender" id="g2"><label for="g2">Female</label>
+        <input type="radio" name="gender" id="g3"><label for="g3">Others</label>
+
+        <hr>
+
+        <label for="">Skills:</label>
+        <input type="checkbox" id="s1"><label for="s1">Javascript</label>
+        <input type="checkbox" id="s2"><label for="s2">HTML</label>
+        <input type="checkbox" id="s3"><label for="s3">CSS</label>
+        <input type="checkbox" id="s4"><label for="s4">Reactjs</label>
+        <hr>
+        <textarea rows="15px" cols="50px" placeholder="Enter your Feedback"></textarea>
+
+        <hr>
+        <select>
+            <option>Select your State</option>
+            <option>Karnataka</option>
+            <option>Andhra</option>
+            <option>Telangana</option>
+            <option>Kerala</option>
+            <option>Maharashtra</option>
+            <option>Goa</option>
+            <option>TamilNadu</option>
+            <option>Gujarath</option>
+            <option>Punjab</option>
+            <option>Assam</option>
+            <option>Uttar Pradesh</option>
+            <option>Himachal Pradesh</option>
+            <option>West Bengal</option>
+
+        </select>
+
+        <hr>
+
+        <select multiple>
+            <optgroup label="Non-veg">
+                <option>Chicken Biryani</option>
+                <option>Kabab</option>
+                <option>Shawarma</option>
+                <option>Tandoori</option>
+                <option>Kabab</option>
+                <option>Grilled Chicken</option>
+            </optgroup>
+
+            <optgroup label="veg">
+                <option>Idli</option>
+                <option>Dosa</option>
+                <option>Upma</option>
+                <option>Lemon Rice</option>
+                <option>Curd Rice</option>
+            </optgroup>
+
+            <optgroup label="Snacks">
+                <option>Samosa</option>
+                <option>Fries</option>
+                <option>Maddur vade</option>
+                <option>Gobi</option>
+            </optgroup>
+
+        </select>
+
+        <hr>
+        <input type="text" placeholder="Enter State Name" list="state">
+        <datalist id="state">
+           
+            <option>Karnataka</option>
+            <option>Andhra</option>
+            <option>Telangana</option>
+            <option>Kerala</option>
+            <option>Maharashtra</option>
+            <option>Goa</option>
+            <option>TamilNadu</option>
+            <option>Gujarath</option>
+            <option>Punjab</option>
+            <option>Assam</option>
+            <option>Uttar Pradesh</option>
+            <option>Himachal Pradesh</option>
+            <option>West Bengal</option>
+
+        </datalist>
+        
+    </form>
+</body>
+</html>
