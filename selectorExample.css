@@ -1,0 +1,22 @@
+.btn
+{
+    margin: 100px 600px;
+    font-size: 20px;
+    width: 218px;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border:none;
+    font-weight: bold;
+}
+
+
+.btn-blue
+{
+    background-color: rgb(78, 78, 250);
+}
+
+.btn-green
+{
+    background-color: rgb(7, 155, 7);
+}

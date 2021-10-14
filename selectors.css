@@ -1,0 +1,72 @@
+/* Element Selector */
+/* p
+{
+    color: blue;
+} */
+
+/* Group Selector */
+/* h1,p,a
+{
+    color: blue;
+} */
+
+/* Class Selector */
+/* p.jsp
+{
+    color: blue;
+} */
+
+/* Generic Class Selector */
+/* .jsp
+{
+    color: blue;
+    background-color: gray;
+} */
+
+
+/* ID Selector */
+
+/* #qsp
+{
+    color: yellow;
+} */
+
+/* Universal Selector */
+/* *
+{
+    color:blue;
+} */
+
+/* Attribute Selector */
+
+/* 
+input[name]
+{
+    border:2px solid blue
+} */
+
+/* Attribute Value Selector */
+
+/* input[type="email"]
+{
+    border:2px solid blue
+} */
+
+
+/* Child Selector */
+/* div h1
+{
+    color: blue;
+} */
+
+/* Sibling Selector */
+/* div~h1,a
+{
+    color:blue
+} */
+
+/* Sibling Selector */
+div~.i
+{
+    color: yellow;
+}
