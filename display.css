@@ -1,0 +1,25 @@
+/* div,p
+{
+    background-color: yellow;
+    display: inline
+}
+
+span,a
+{
+    background-color: yellow;
+    display: block;
+} */
+/* 
+div
+{
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+
+} */
+

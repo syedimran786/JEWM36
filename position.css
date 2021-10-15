@@ -1,0 +1,33 @@
+/* .parent
+{
+    background-color: blue;
+    width: 400px;
+    position: relative;
+}
+
+.child
+{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 80px;
+    top:40px;
+}
+
+.child:hover
+{
+    background-color: gray;
+    color: white;
+} */
+
+/* div
+{
+    background-color: blue;
+    color: white;
+    padding: 20px 40px;
+    /* position: sticky; */
+    position: fixed;
+    top: 80px;
+    width: 100%;
+} */
