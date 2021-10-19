@@ -1,0 +1,118 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+    overflow-x: hidden;
+    /* background-color: aliceblue; */
+}
+
+/* Navbar Starts */
+
+    nav
+    {
+        background-color: rgb(246, 247, 255);
+        padding: 25px 45px;
+    }
+
+    nav ul li
+    {
+        display: inline;
+    }
+
+    nav ul
+    {
+        display: inline;
+        margin-left: 228px;
+    }
+
+    nav ul li a
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 51px;
+    }
+
+    nav ul li a:hover
+    {
+        color: blue;
+    }
+
+    .brand-logo
+    {
+        text-decoration: none;
+        font-size: 25px;
+        color:black;
+    }
+
+    .nav-btn
+    {
+        background-color: #e2e5fe;
+        font-size: 16px;
+        padding: 8px 24px;
+        border-radius: 4px;
+        transition:background-color 1s,color 0.6s ;
+    }
+
+    .nav-btn:hover
+    {
+        background-color: blue;
+        color: white;
+    }
+/* Navbar Ends */
+
+/* Banner Starts */
+
+    .banner
+    {
+       
+        height: 500px;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+         url("https://bootstrapmade.com/demo/templates/Lumia/assets/img/hero-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .banner-content
+    {
+        
+        width: 800px;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin: 110px auto;
+        
+    }
+
+    .banner-content h1
+    {
+        font-size: 60px;
+    }
+
+    .banner-content p
+    {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .banner-content button
+    {
+        background-color: #3498db;
+        border-radius: 6px;
+        padding: 13px 50px;
+        font-size: 16px;
+        color: white;
+        border: none;
+    }
+
+
+
+/* Banner Ends */
