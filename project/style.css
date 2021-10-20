@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 html,body
@@ -19,6 +19,10 @@ html,body
     {
         background-color: rgb(246, 247, 255);
         padding: 25px 45px;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        /* z-index: -2; */
     }
 
     nav ul li
@@ -75,19 +79,20 @@ html,body
     {
        
         height: 500px;
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+        /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
          url("https://bootstrapmade.com/demo/templates/Lumia/assets/img/hero-bg.jpg");
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 100%; */
     }
     .banner-content
     {
         
         width: 800px;
-        color: white;
+        color: black;
         padding: 20px;
         text-align: center;
-        margin: 110px auto;
+        margin: 50px auto;
+        font-family: "Krub", sans-serif!important;
         
     }
 
@@ -105,7 +110,7 @@ html,body
 
     .banner-content button
     {
-        background-color: #3498db;
+        background-color: rgb(44, 44, 241);
         border-radius: 6px;
         padding: 13px 50px;
         font-size: 16px;
@@ -113,6 +118,89 @@ html,body
         border: none;
     }
 
+    .banner-content button:hover
+    {
+        background-color: blue;
+    }
 
 
+   
 /* Banner Ends */
+
+/* bg-img starts */
+.banner-image
+{
+    margin-top: -180px;
+    margin-left: 305px;
+}
+
+/* bg-img ends */
+
+/* provident starts */
+.provident
+{
+    background-color: #466393;
+    padding: 50px;
+    color: white;
+}
+.provident-content,.provident-icons
+{
+    /* border:2px solid red; */
+    display: inline-block
+}
+
+.provident-icons-content
+{
+    /* border:2px solid green; */
+    padding: 20px;
+}
+
+.provident-content
+{
+    width: 500px;
+    padding: 20px;
+}
+.provident-icons
+{
+    width: 350px;
+}
+
+.provident-icons i
+{
+    font-size: 40px;
+    color: #b6bdfc;
+}
+
+.provident-content button
+{
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 37px;
+    background-color: rgba(173,216,230,0.2);
+    border: none;
+    color: white;
+}
+
+.provident-content button:hover
+{
+    background-color: rgba(173, 216, 230, 0.274);
+}
+
+.provident h1
+{
+    font-size: 40px;
+}
+
+.provident .provident-content p
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+.provident-icons-content h3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* provident Ends */
